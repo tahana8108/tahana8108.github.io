@@ -8,7 +8,7 @@
   background-color: #010060;
   color: white;
   padding:20px;
-  height:auto;
+  height:375px;
   width:100%;
 }
 #menu{
@@ -19,7 +19,7 @@
   width:150px;
   height:750px;
 }
-#body{
+#content{
   background-color:#EEEEEE;
   color:black;
   padding:20px;
