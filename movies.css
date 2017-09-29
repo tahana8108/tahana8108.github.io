@@ -1,32 +1,45 @@
 <!-- CSS Style Sheet (can't add comments because it messes the code up for some reason)-->
 
 #container{
-  width: 100%;
-  height: 500px;
+  width:100%;
+  height:auto;
 }
 #header{
-  background-color: #010060;
-  color: white;
+  background-color:#010060;
+  color:white;
   padding:20px;
   height:375px;
-  width:100%;
+}
+#main{
+  position:relative;
+  height:790px;
 }
 #menu{
-  float:left;
+  position:absolute;
+  left:0px;
+  top:0px;
   background-color:#010090;
   color:white;
   padding:20px;
-  width:150px;
+  width:160px;
   height:750px;
 }
 #content{
+  position:absolute;
+  left:190px;
+  top:0px;
   background-color:#EEEEEE;
   color:black;
   padding:20px;
-  padding-left:210px;
   height:750px;
 }
-footer, #footer{
+footer{
+  text-align:center;
+  background-color:#010060;
+  color:white;
+  padding:20px;
+}
+#footer{
   text-align:center;
   background-color:#010060;
   color:white;
